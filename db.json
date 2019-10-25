@@ -1,14 +1,142 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "courses": [
+    {
+      "id": 32,
+      "title": "آموزش Sass",
+      "type": 1,
+      "cost": 25000,
+      "capacity": 25,
+      "image": "f0ee5cc5-008b-477e-9141-674cd5eaeee9.png",
+      "description": "توضیحات",
+      "count": 25,
+      "categoryId": 1
+    },
+    {
+      "id": 33,
+      "title": "آموزش php mvc",
+      "type": 1,
+      "cost": 90000,
+      "capacity": 90,
+      "image": "520625b4-1495-4aef-b0e7-2134d49f7725.png",
+      "description": "توضیحات",
+      "count": 90,
+      "categoryId": 1
+    },
+    {
+      "id": 34,
+      "title": "آموزش شی گرایی در php",
+      "type": 1,
+      "cost": 95100,
+      "capacity": 80,
+      "image": "b9dbd41b-69d2-4be4-be54-5a12f20db036.png",
+      "description": "توضیحات",
+      "count": 56,
+      "categoryId": 2
+    },
+    {
+      "id": 35,
+      "title": "آموزش php",
+      "type": 1,
+      "cost": 12000,
+      "capacity": 50,
+      "image": "83a9d345-53ed-4ba9-994e-985eb28dbd83.png",
+      "description": "توضیحات",
+      "count": 50,
+      "categoryId": 3
+    },
+    {
+      "id": 36,
+      "title": "آموزش فلکس باکس",
+      "type": 1,
+      "cost": 78000,
+      "capacity": 80,
+      "image": "180e11c1-3d44-4c26-805f-d27b70fa0589.png",
+      "description": "توضیحات",
+      "count": 5,
+      "categoryId": 2
+    },
+    {
+      "id": 37,
+      "title": "آموزش ریکت نیتیو",
+      "type": 1,
+      "cost": 38100,
+      "capacity": 50,
+      "image": "dae08291-543a-4d98-b575-dbd0434dbf1f.png",
+      "description": "توضیحات",
+      "count": 16,
+      "categoryId": 1
+    },
+    {
+      "id": 38,
+      "title": "آموزش ریداکس",
+      "type": 1,
+      "cost": 99000,
+      "capacity": 80,
+      "image": "d594492c-6e94-4c55-a462-cfc9eabed144.png",
+      "description": "توضیحات",
+      "count": 56,
+      "categoryId": 4
+    },
+    {
+      "id": 39,
+      "title": "آموزش ریکت نیتیو",
+      "type": 1,
+      "cost": 66000,
+      "capacity": 25,
+      "image": "566e2093-81e8-4d9f-868e-911d2d8f95c6.png",
+      "description": "توضیحات",
+      "count": 10,
+      "categoryId": 5
+    },
+    {
+      "id": 40,
+      "title": "کارگاه عملی جاوا اسکریپت",
+      "type": 1,
+      "cost": 75000,
+      "capacity": 50,
+      "image": "608565ee-ed4f-4e87-8fad-f6f6e8fff040.png",
+      "description": "توضیحات",
+      "count": 15,
+      "categoryId": 3
+    },
+    {
+      "id": 41,
+      "title": "آموزش اکما اسکریپت پیشرفته",
+      "type": 1,
+      "cost": 66000,
+      "capacity": 50,
+      "image": "48bc1de9-1461-41fa-948e-01e3e2df7c8c.png",
+      "description": "توضیحات",
+      "count": 15,
+      "categoryId": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Java Script",
+      "image": "typescript.png"
+    },
+    {
+      "id": 2,
+      "name": "PHP",
+      "image": "php.png"
+    },
+    {
+      "id": 3,
+      "name": "MySQL",
+      "image": "mysql.png"
+    },
+    {
+      "id": 4,
+      "name": "CSS",
+      "image": "css.png"
+    },
+    {
+      "id": 5,
+      "name": "Other",
+      "image": "coding.png"
+    }
+  ]
 }
+
